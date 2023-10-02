@@ -1,6 +1,6 @@
 # JavaServer_Base
 A simple HttpClient class that allows you to make HTTP GET requests to a specified host and port and retrieve the response, including the status code, response headers, and message body. It's a basic implementation of an HTTP client using Java's Socket class for network communication.
-A simple HTTP server using Java's ServerSocket class. The server listens on port 8080 for incoming connections, and when a connection is established, it handles a basic HTTP response.
+A simple HTTPServer using Java's ServerSocket class. The server listens on port 8080 for incoming connections, and when a connection is established, it handles a basic HTTP response.
 
 HttpClient:
   Instance Variables:
