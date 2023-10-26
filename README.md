@@ -53,3 +53,14 @@ HttpServer:
 
   Server Termination:
   - The code in this example doesn't include a server termination mechanism, so the server will run indefinitely until it is manually terminated or the program is forcibly stopped.
+
+  Responses:
+  - HttpServer should respond with 404
+  - HttpServer should include request target in 404 -
+  - Return a static content for /hello
+  - Content-type
+  - Return HTML file from disk
+   
+    Return:
+  - Process GET request for form
+  - Process POST request from form
