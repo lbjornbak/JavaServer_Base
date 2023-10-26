@@ -64,3 +64,10 @@ HttpServer:
     Return:
   - Process GET request for form
   - Process POST request from form
+
+  - Handle more than one request
+  - Error handling
+  - GET requests with more than one field
+  - Refactor -> HttpMessage class
+  - Process POST request from form
+  - URL encoding
