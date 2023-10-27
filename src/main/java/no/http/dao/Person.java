@@ -1,4 +1,4 @@
-package no.http;
+package no.http.dao;
 
 public class Person {
     private Long id;

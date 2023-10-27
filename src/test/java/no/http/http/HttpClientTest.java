@@ -1,6 +1,8 @@
-package no.http;
+package no.http.http;
 
 
+import no.http.HttpClient;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -11,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class HttpClientTest {
     @Test
     void shouldReturnStatusCode() throws IOException {
-        assertEquals(200,
+        Assertions.assertEquals(200,
                 new HttpClient("httpbin.org", 80, "/html")
                         .getStatusCode());
         assertEquals(404,

@@ -1,6 +1,7 @@
-package no.http;
+package no.http.person;
 
 
+import no.http.dao.Person;
 import no.http.dao.PersonDao;
 import org.flywaydb.core.Flyway;
 import org.h2.jdbcx.JdbcDataSource;
