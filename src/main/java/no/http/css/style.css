@@ -9,3 +9,9 @@ main {
     max-width: 40em;
     margin: auto;
 }
+
+li {
+    border: antiquewhite;
+    background: antiquewhite;
+    border-radius: 5px;
+}
