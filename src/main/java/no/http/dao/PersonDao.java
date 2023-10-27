@@ -27,7 +27,7 @@ public class PersonDao {
         dataSource.setUser("person_dbuser");
         dataSource.setPassword("postgrespass");
 
-        //Username and password. Will be moved to separate file. Is here now for demo purposes
+        //Username and password. Will be moved to separate config file. Its here now for demo purposes
 
         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
         flyway.migrate();
