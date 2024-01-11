@@ -1,6 +1,6 @@
 package no.http.dao;
 
-import no.http.Person;
+import no.http.dao.Person;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGSimpleDataSource;
 import javax.sql.DataSource;
